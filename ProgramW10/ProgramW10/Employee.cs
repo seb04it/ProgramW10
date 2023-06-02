@@ -36,7 +36,18 @@
         }
         public void AddGrade(double grade)
         {
-            
+            float grade0 = (float)grade;
+            this.AddGrade(grade0);
+        }
+        public void AddGrade(long grade)
+        {
+            float grade1 = (float)grade;
+            this.AddGrade(grade1);
+        }
+        public void AddGrade(int grade)
+        {
+            float grade2 = (float)grade;
+            this.AddGrade(grade2);
         }
 
         public Statistics GetStatistics()
